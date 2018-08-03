@@ -46,7 +46,6 @@ sub more_complex {
     my ($self, $num) = @_;
 
     my $result = 0;
-    
     for my $n1 (1..$num) {
         my $a = ($n1 % 2 == 0) ? 2 : 1;
         for my $n2 (1..$num) {
